@@ -1,0 +1,212 @@
+@font-face {
+    font-family:"Tiresias_Infofont";
+    src: url("C:/Users/acs/Desktop/Projet_5-main/projet_site_5/police/Tiresias_Infofont.ttf");   
+}
+@font-face {
+    font-family: "LucioleRegular";
+    src: url("C:/Users/acs/Desktop/Projet_5-main/projet_site_5/police/Luciole-Regular.ttf");
+}
+@font-face {
+    font-family:"LucioleRegularItalic";
+    src: url("C:/Users/acs/Desktop/Projet_5-main/projet_site_5/police/Luciole-Regular-Italic.ttf");
+}
+@font-face {
+    font-family:"TiresiasItalic"; 
+    src: url("C:/Users/acs/Desktop/Projet_5-main/projet_site_5/police/Tiresias_Infofont_Italic.ttf");
+}
+
+/*Liste ordonné horizontal*/
+ul{
+    display: flex;
+    justify-content:space-between;
+}
+.ListeOrdonne{
+    display: flex;
+    flex-direction: column;
+    font-family: "LucioleRegularItalic";
+}
+
+/*TitreEnorme*/
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family:"TiresiasItalic";
+    margin-top: 35px;
+    margin-bottom: 45px;
+
+}
+/*Titre2*/
+h2{
+    text-align: left;
+    font-size: 45px;
+    font-family:"TiresiasItalic";
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+/*Image Centré*/
+img{
+    width:60%;
+    height: 60%;
+    margin-top: 60px;    
+}
+.logo img{
+    display: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    font-family: "Tiresias_Infofont";
+    font-size: 25px;
+
+}
+section{
+    font-family:"LucioleRegular";
+    font-size: 19px;
+    margin-top: 05rem;
+    margin-bottom: 05rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    border: 2px solid #f0f0f0;
+    background-color: #f0f0f0;
+}
+
+/*TRAIT DE SEPARATION*/
+.separation{
+	clear: both;
+	position: absolute;
+    margin-top: 0.2rem;
+	margin-left: 350px;
+	height: 40px;
+	width : 2px;
+	background: black;
+}
+.separation2{
+	clear: both;
+	position: absolute;
+    margin-top: 0.2rem;
+	margin-left: 850px;
+	height: 40px;
+	width : 2px;
+	background: black;
+}
+
+.separation3{
+	clear: both;
+	position: absolute;
+    margin-top: 0.2rem;
+	margin-left: 1250px;
+	height: 40px;
+	width : 2px;
+	background: black;
+}
+
+footer{
+    background-color:#4a97d2 ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+footer p{
+    font-family:"LucioleRegularItalic" ;
+}
+.PlusieursImage{
+    display: none;
+}
+.entetedessoustitre{
+    display: none;
+}
+.LoupeWindows{
+    width: 150vh;
+    height: 30vw;
+}
+.alt{
+    width: 150vh;
+    height: 30vw;
+}
+
+@media only screen and (max-width : 500px)
+{
+
+    ul{
+        display: none;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+
+    }
+    a{
+        font-size: 15px;
+    }
+    img{
+        width: 80%;
+        height: 80%;
+    }
+    .TexteAccessible{
+        font-size: 10px;
+        margin-top: 1rem;
+        margin-bottom: 05rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        background:none;
+        border: none;
+    }
+    .logo img{
+        width: 85px;
+        height: 85px;
+    }
+
+    .separation{
+        background:none;
+        border: none;
+    }
+
+    .separation2{
+        background:none;
+        border: none;
+    }
+    .separation3{
+        background:none;
+        border: none;
+
+    }
+    .PlusieursImage{
+        width: 225px;
+        height: 225px;
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-bottom: 3rem;
+    }
+    hr{
+        border: 1px solid black;   
+
+    }
+
+    .entetedessoustitre{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .entetedessoustitre img{
+        width: 85px;
+        height: 85px;
+        margin-top: 0;
+
+    }
+
+    .LoupeWindows{
+        width: 50vh;
+        height: 30vw;
+    }
+    .alt{
+        width: 50vh;
+        height: 30vw;   
+    }
+}
