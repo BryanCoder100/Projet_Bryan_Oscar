@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--  HEADER  -->  
+
+    <header>
+        <section class="titre">
+            <img class="logo" src="media/logo.png" alt="logo en forme d'oreil">
+            <h1>L’accessibilité pour tous</h1>
+        </section>
+
+        <nav>
+            <ul>
+                <li><a href="#">Handicap Visuel</a></li>
+                <li><a href="#">Handicap Auditif</a></li>
+                <li><a href="#">Handicap moteur</a></li>
+                <li><a href="#">Handicap cognitif</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--CONTENU-->
+
+<section class="contenu">
+
+    <h2>#1 Proposer des contenus textuel à tous contenu non-textuel</h2>
+    <img class="alt" src="media/alt.png" alt="ligne de code">
+    <p>Pour les images, ou logo clliquable, préciser la fonction et la cible du lien dans l’attribut «alt». Mettre un attribut «alt» décrivant précisement ce qui se trouve sur l’image et en cas de texte ecrit mettre dans l’attribut le contenu du texte</p>
+
+    <h2>#2 Rendre accessible tout contenu audio ou vidéo</h2>
+    <img class="sous" src="media/sous-titres.jpg" alt="image de bouton">
+    <p>Proposer des sous-titre 
+        <br>
+        Pour tout son émis de plus de 3 secondes, l’utilisateur doit avoir la possibilité soit de l’arrêter ou de le mettre en pause doit d’en contrôler son volume indépendamment du volume général du système.</p>
+
+    <h2>#3 Eviter les captcha</h2>
+    <img class="captcha" src="media/captcha.png" alt="image d'un captcha">
+    <p>Les captcha sont souvent la source de difficultés pour les utilisateurs. Si la mise en place d’un système anti-spam ne peut être évitée, il est souhaitable de s’orienter vers une solution plus souple pour l’utilisateur :
+        <br>
+        <br>
+        Double authentification
+        <br>
+        Champ de formulaire caché à laisser vide (technique du honeypot), non-visibles pour l’utilisateur.
+        <br>
+        Mise à disposition d’un support téléphonique afin de s’assurer que le client est une vraie personne.
+        <br>
+        Un contrôle permettant de s’assurer qu’une même combinaison IP/User agent ne tente pas de soumettre le formulaire plus de N fois par seconde.
+        <br>
+        Si aucune autre alternative n’est possible, il est indispensable de prévoir une alternative pour les captcha uniquement visuels ou sonores en proposant une combinaison de captcha : un captcha audio + visuel, des tests logiques (question dont la réponse est évidente, test mathématique simple…) + captcha visuel classique...</p>
+
+</section>
+
+<footer>
+    <p>Fabrice DHERVE, Louis POCHERON & Manon MILLE </p>
+</footer>
+    
+</body>
+</html>
