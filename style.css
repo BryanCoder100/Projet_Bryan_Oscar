@@ -27,6 +27,22 @@ body
     width: 30vw;
 }
 
+.erreur
+{
+    width: 35vw;
+}
+
+.simpl
+{
+    width: 40vw;
+}
+
+.temps
+{
+    width: 40vw;
+}
+
+
 /*-------------------------*/
 
 /* Ajout des font */
