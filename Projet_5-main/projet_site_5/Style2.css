@@ -1,0 +1,231 @@
+body
+{
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajustement taille image */
+
+.logo
+{
+    width: 8vw;
+}
+
+.alt
+{
+    width: 45vw;
+}
+
+.sous
+{
+    width: 35vw;
+}
+
+.captcha
+{
+    width: 30vw;
+}
+
+/*-------------------------*/
+
+/* Ajout des font */
+
+@font-face
+{
+    font-family: 'luciole-bold';
+    src: url('police/Luciole-Bold.ttf');
+}
+
+@font-face
+{
+    font-family: 'luciole-regular';
+    src: url('police/Luciole-Regular.ttf');
+}
+
+@font-face
+{
+    font-family: 'luciole-it';
+    src: url('police/Luciole-Regular-Italic.ttf');
+}
+
+@font-face
+{
+    font-family: 'tiresias';
+    src: url('police/Tiresias_Infofont.ttf');
+}
+
+/*-------------------------*/
+
+/* Mise en forme Header */
+
+header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.titre
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+nav ul
+{
+    list-style-type: none;
+    font-family: 'tiresias';
+    font-size: 1.5vw;
+}
+
+nav li
+{
+    float: left;
+    text-align: center;
+    width: 25%;
+    border-right: #21273d;
+}
+ 
+nav ul::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a
+{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Disposition du Contenu */
+
+.contenu
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    margin-inline: 20vw;
+    border-radius: 3vw;
+    margin-bottom: 0vw;
+}
+
+h2
+{
+    font-family: 'luciole-bold';
+    align-self: flex-start;
+    margin-left: 1.5vw;
+    font-size: 2vw;
+    margin-bottom: 5vw;
+    color: #21273d;
+}
+
+p
+{
+    font-family: 'luciole-regular';
+    margin-inline: 1.5vw;
+    margin-top: 7vw;
+    padding-bottom: 7vw;
+}
+
+/*-------------------------*/
+
+/* Mise en forme Footer */
+
+footer
+{
+    text-align: end;
+    font-family: 'luciole-regular';
+    background-color: #57a7dc;
+    margin-top: 5vw;
+}
+
+/*-------------------------*/
+@media only screen and (max-width : 500px)
+{
+
+    ul{
+        display: none;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+
+    }
+    a{
+        font-size: 15px;
+    }
+    img{
+        width: 80%;
+        height: 80%;
+    }
+    .TexteAccessible{
+        font-size: 10px;
+        margin-top: 1rem;
+        margin-bottom: 05rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        background:none;
+        border: none;
+    }
+    .logo img{
+        width: 85px;
+        height: 85px;
+    }
+
+    .separation{
+        background:none;
+        border: none;
+    }
+
+    .separation2{
+        background:none;
+        border: none;
+    }
+    .separation3{
+        background:none;
+        border: none;
+
+    }
+    .PlusieursImage{
+        width: 225px;
+        height: 225px;
+        display: flex;
+        flex-direction:row-reverse;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-bottom: 3rem;
+    }
+    hr{
+        border: 1px solid black;   
+
+    }
+
+    .entetedessoustitre{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .entetedessoustitre img{
+        width: 85px;
+        height: 85px;
+        margin-top: 0;
+
+    }
+
+    .LoupeWindows{
+        width: 50vh;
+        height: 30vw;
+    }
+    .alt{
+        width: 50vh;
+        height: 30vw;   
+    }
+}
